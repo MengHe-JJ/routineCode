@@ -1,0 +1,15 @@
+{
+  "pages": [
+    
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/crop/crop"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "裁剪图片",
+    "navigationBarTextStyle": "white"
+  }
+}

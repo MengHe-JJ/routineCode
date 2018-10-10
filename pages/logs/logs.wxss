@@ -1,0 +1,51 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.warpper{
+  position: fixed;
+  top:0;
+  left:0;
+  background-color: #000;
+  width:100%;
+  height:100%;
+  display: block;
+}
+.box{
+  text-align: center;
+  position: relative;
+  margin:0 auto;
+}
+.box image{
+ 
+}
+.crop{
+  position: absolute;
+  background-color:rgba(255, 255, 255, .6);
+}
+.footer{
+  position: absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  color:#fff;
+  z-index: 3;
+  font-size:32rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:80rpx;
+  border-top:1px solid #666;
+  overflow: hidden;
+}
+.footer text{
+  line-height: 80rpx;
+  padding:0 30rpx;
+}
+.imgcrop{
+  position: absolute;
+}

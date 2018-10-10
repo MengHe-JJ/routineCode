@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+<view class='headImg'>
+  <image src="{{src}}" catchtap="chooseImg"></image>
+</view>
+  
+</view>

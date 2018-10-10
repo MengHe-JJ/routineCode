@@ -1,0 +1,12 @@
+<!--logs.wxml-->
+<view class="warpper">
+ <view class="box" style="width:{{boxWidth}}px;height:{{boxHeight}}px;top:{{boxTop}}px;left:{{boxLeft}}px;">
+    <image mode='widthFix' src='{{src}}' style="width:{{imgWidth}}px;height:{{imgHeight}}px;"></image>
+    <view class="crop" bindtouchstart='changeTouchStart' bindtouchmove='changeTouchMoving' bindtouchend="changeTouchEnd" style=" left:{{left}}px;top:{{top}}px;right:{{right}}px;bottom:{{bottom}}px;"></view>
+ </view>
+ <view class='footer'>
+    <text catchtap='navBack'>取消</text>
+    <text catchtap='complete'>完成</text>
+ </view>
+ <canvas class="imgcrop" style="width:{{width}}px;height:{{height}}px;position:absolute;top:-9999px;left:-9999px;" canvas-id='myCanvas'></canvas>
+</view>
